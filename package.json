@@ -4,7 +4,6 @@
   "scripts": {
     "ng": "ng",
     "start": "nodemon server | ng serve",
-
     "start:server": "nodemon server",
     "build": "ng build --prod",
     "start:pwa": "rimraf dist && npm run build && cd dist && http-server -p 4200",
